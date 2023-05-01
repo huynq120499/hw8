@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <title>Giới thiệu bản thân</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+  <body>
+    <!-- Trang chủ -->
+    <div data-role="page" id="home">
+      <div data-role="header">
+        <h1>Giới thiệu bản thân</h1>
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <h2>Thông tin cơ bản</h2>
+        <ul data-role="listview">
+          <li>
+            <h3>Họ và tên</h3>
+            <p>Nguyễn Quang Huy</p>
+          </li>
+          <li>
+            <h3>Giới tính</h3>
+            <p>Nam</p>
+          </li>
+          <li>
+            <h3>Tuổi</h3>
+            <p>24 tuổi</p>
+          </li>
+          <li>
+            <h3>Email</h3>
+            <p>huyb1120499@gmail.com</p>
+          </li>
+        </ul>
+      </div>
+
+      <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#home" data-transition="turn" class="ui-btn-active ui-state-persist">Thông tin cơ bản</a></li>
+            <li><a href="#interests" data-transition="turn">Sở thích</a></li>
+            <li><a href="#education" data-transition="turn">Học vấn - Kinh nghiệm</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Trang sở thích -->
+    <div data-role="page" id="interests">
+      <div data-role="header">
+        <h1>Sở thích</h1>
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <h2>Môn thể thao yêu thích</h2>
+        <p>Tôi thích chơi cầu lông</p>
+
+        <h2>Thói quen đọc sách</h2>
+        <p>Tôi thích đọc sách về công nghệ, hiện đang đọc cuốn sách "Deep Work".</p>
+
+        <h2>Kinh nghiệm du lịch</h2>
+        <p>Tôi thích đi du lịch. Đã từng đi TPHCM</p>
+      </div>
+
+      <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#home" data-transition="slidefade">Thông tin cơ bản</a></li>
+            <li><a href="#interests" data-transition="slidefade" class="ui-btn-active ui-state-persist">Sở thích</a></li>
+            <li><a href="#education" data-transition="slidefade">Học vấn - Kinh nghiệm</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Trang học vấn - kinh nghiệm -->
+    <div data-role="page" id="education">
+      <div data-role="header">
+        <h1>Học vấn - Kinh nghiệm</h1>
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <h2>Học vấn</h2>
+        <ul data-role="listview">
+          <li>
+            <h3>Đại học Cảnh Văn Đài Loan</h3>
+            <p>Đang học ngành điện tử tại trường 2022-2026</p>
+          </li>
+          <li>
+            <h3>Đại học Bách Khoa Hà Nội Việt Nam</h3>
+            <p>Học ngành kĩ thuật cơ khí, 2017-2021</p>
+          </li>
+        </ul>
+
+        <h2>Kinh nghiệm</h2>
+        <ul data-role="listview">
+          <li>
+            <h3>Google</h3>
+            <p>Kỹ sư phần mềm, 2020-nay</p>
+          </li>
+          <li>
+            <h3>Microsoft</h3>
+            <p>Thực tập sinh, 2019</p>
+          </li>
+        </ul>
+      </div>
+
+      <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#home" data-transition="slideup">Thông tin cơ bản</a></li>
+            <li><a href="#interests" data-transition="slideup">Sở thích</a></li>
+            <li><a href="#education" data-transition="slideup" class="ui-btn-active ui-state-persist">Học vấn - Kinh nghiệm</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
